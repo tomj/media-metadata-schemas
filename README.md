@@ -22,7 +22,7 @@ const metadata = {
   mimeType: mimeType,
 }
 const generator = new Generator(metadata.version)
-const minified = generator.generate(metadata)
+const minified = generator.generateJSON(metadata)
 ```
 
 ### Validate
